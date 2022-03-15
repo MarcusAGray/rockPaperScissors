@@ -15,6 +15,7 @@ let playerScore = 0;
 let machineScore = 0;
 
 
+
 startBtn.addEventListener('click', function() {
   display.textContent = "Get Ready";
 
