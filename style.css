@@ -1,0 +1,55 @@
+
+html * {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(114, 182, 228);
+}
+
+nav {
+  border-bottom: 2px solid darkblue;
+  padding: 0 5px 5px;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+}
+
+main {
+  position: relative;
+}
+
+#scoreBoard {
+  position: absolute;
+  right: 0;
+  margin: 15px;
+  border: solid 2px black;
+  min-width: 100px;
+}
+
+#opponentMoveDisplay {
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  margin: 40px auto;
+  background-color: black;
+  color: white;
+}
+
+#playerOptions {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.option {
+  margin: 5px;
+  border: 2px solid black;
+}
+
+.test {
+  background-color: green;
+}
